@@ -9,6 +9,7 @@ http.createServer(function(request, response) {
         database: 'test'
     });
     connection.connect();
+    
     connection.query('SELECT* FROM ZZZ', function(err, rows) {
         if (err) {
             throw err;
