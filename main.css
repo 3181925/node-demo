@@ -1,0 +1,30 @@
+* {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #F4F5F6;
+}
+
+div {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    width: 800px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    background: #FFFFFF
+}
+
+.cWrap {
+    width: 800px;
+}
